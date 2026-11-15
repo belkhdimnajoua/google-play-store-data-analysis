@@ -22,7 +22,7 @@ import plotly.express as px
 """
 
 # chargement de data
-df_apps=pd.read_csv('/content/apps (1).csv')
+df_apps=pd.read_csv('/content/apps.csv')
 print(df_apps.shape)
 print(df_apps.describe())
 print(df_apps.dtypes)
